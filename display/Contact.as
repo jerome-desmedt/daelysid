@@ -1,3 +1,9 @@
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * ActionScript 3
+ * AUTHOR: J. De Smedt
+ **/
 package display
 {
 	import com.greensock.TweenLite;
@@ -87,7 +93,6 @@ package display
 			inputArray[input.name] = {emptyInput:focusOut, contentText:input.text, wrongCase: wCase};
 			
 			return input;
-			
 		}
 		
 		private function onFocusInTextHandler(event:FocusEvent):void
@@ -127,7 +132,6 @@ package display
 		{
 			TweenPlugin.activate([TintPlugin]);
 			TweenLite.to(event.target, 0.5, {tint:0xFFFFFF});
-			
 		}
 		
 		private function onSubmitBtnOut(event:MouseEvent):void
@@ -167,8 +171,8 @@ package display
 				
 				variables = new URLVariables();
 				variables.name 	= inputArray["name "].contentText;
-				variables.mail 		= inputArray["e-mail "].contentText;
-				variables.subject 	= inputArray["subject "].contentText;
+				variables.mail 	= inputArray["e-mail "].contentText;
+				variables.subject = inputArray["subject "].contentText;
 				variables.message= inputArray["message "].contentText;
 				
 				var urlReq:URLRequest = new URLRequest("php/sendmail.php");
@@ -187,7 +191,7 @@ package display
 			var mail_status:String=new URLVariables(event.target.data).success;
 			if(mail_status=="yes")
 			{
-				trace("mail succed");
+				trace("mail successfully sent");
 			}else{
 				
 			}
