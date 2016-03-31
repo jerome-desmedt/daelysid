@@ -17,10 +17,10 @@ package
 	public class Daelysid extends Sprite
 	{
 		public static var home			:Home;
-		public static var gallery			:Gallery;		
+		public static var gallery		:Gallery;		
 		public static var about			:About;
-		public static var contact			:Contact;
-		public static var specialEvent	:SpecialEvent;
+		public static var contact		:Contact;
+		public static var specialEvent		:SpecialEvent;
 		
 		public function Daelysid()
 		{
