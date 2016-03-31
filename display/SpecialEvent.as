@@ -1,3 +1,9 @@
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * ActionScript 3
+ * AUTHOR: J. De Smedt
+ **/
 package display 
 {
 	import flash.display.Graphics;
@@ -92,14 +98,14 @@ class SnowParticle extends Sprite
 	private const PARTICLE_MAX_SIZE:uint = 40;
 	private const MAX_SPPED:uint = 5;
 	
-	public static var _stageWidth:uint;
-	public static var _stageHeight:uint;
-	private var _particle:Shape;
-	private var _size:Number;
-	private var _sx:Number;
-	private var _sy:Number;
-	private var _isBig:Boolean = false;
-	private var _basePosition:Number;
+	public static var _stageWidth		:uint;
+	public static var _stageHeight		:uint;
+	private var _particle			:Shape;
+	private var _size			:Number;
+	private var _sx				:Number;
+	private var _sy				:Number;
+	private var _isBig			:Boolean 		= false;
+	private var _basePosition		:Number;
 	
 	public function SnowParticle( stageWidth:uint , stageHeight:uint ):void
 	{
