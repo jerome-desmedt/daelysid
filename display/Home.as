@@ -1,3 +1,9 @@
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * ActionScript 3
+ * AUTHOR: J. De Smedt
+ **/
 package display
 {
 	import com.greensock.TweenLite;
@@ -17,19 +23,19 @@ package display
 	[Embed(source="../assets/assets.swf", symbol="Home")]
 	public class Home extends Sprite
 	{
-		public var logo							:MovieClip;
-		public var linkBtns						:MovieClip;
-		public var menuBtns					:MovieClip;
+		public var logo				:MovieClip;
+		public var linkBtns			:MovieClip;
+		public var menuBtns			:MovieClip;
 		
 		public var backgroundShapes		:Sprite;
-		public var rectShape0					:Shape;
-		public var rectShape1					:Shape;
+		public var rectShape0			:Shape;
+		public var rectShape1			:Shape;
 
 		private var pagesContainer		:Sprite;
-		private var maskShape				:Shape;
-		private var facebookBtn				:URLRequest;
-		private var twitterBtn					:URLRequest;
-		private var targetClick				:Object;
+		private var maskShape			:Shape;
+		private var facebookBtn			:URLRequest;
+		private var twitterBtn			:URLRequest;
+		private var targetClick			:Object;
 
 		public function Home()
 		{
