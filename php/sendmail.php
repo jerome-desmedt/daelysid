@@ -1,4 +1,10 @@
 <?php
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * PHP
+ * AUTHOR: J. De Smedt
+ **/
 $contact_name = $_POST['name'];
 $contact_mail = $_POST['mail'];
 $contact_subject = $_POST['subject'];
