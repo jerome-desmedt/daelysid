@@ -1,3 +1,9 @@
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * ActionScript 3
+ * AUTHOR: J. De Smedt
+ **/
 package display
 {
 	import flash.display.Sprite;
