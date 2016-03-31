@@ -1,3 +1,9 @@
+/**
+ * VERSION: 1.0
+ * DATE: 10/09/2010
+ * ActionScript 3
+ * AUTHOR: J. De Smedt
+ **/
 package display
 {
 	import com.greensock.TweenMax;
@@ -19,24 +25,24 @@ package display
 	
 	public class Gallery extends Sprite
 	{
-		public var xmlData					:XML;
-		public var imgArray					:Array;
+		public var xmlData			:XML;
+		public var imgArray			:Array;
 		public var mainContainer		:Sprite;
-		public var projectHolder			:Sprite;
+		public var projectHolder		:Sprite;
 		
-		private var xmlLoader				:URLLoader;
+		private var xmlLoader			:URLLoader;
 		private var progressBar			:ProgressBar;
-		private var imgLoader				:Loader;
-		private var percent					:Number;
+		private var imgLoader			:Loader;
+		private var percent			:Number;
 		
 		private var countThumb			:Number=0;
-		private var countProject			:Number=0;
+		private var countProject		:Number=0;
 		private var tempShape			:TempShape;
 		
 		private var draggedObject		:Sprite;
-		private var moveStatement	:String;
-		private var offsetX					:Number;
-		private var offsetY					:Number;
+		private var moveStatement		:String;
+		private var offsetX			:Number;
+		private var offsetY			:Number;
 		private var startDragX			:Number;
 		private var startDragY			:Number;
 		
